@@ -334,6 +334,20 @@ textarea.input {
     padding: 1.5rem 0 0 0;
   }
 }
+.header-img {
+  height: 200px;
+  width: auto;
+  position: relative;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.bg-img {
+  height: 200px;
+  width: auto;
+  border-radius: 20px;
+  
+}
 
 @media (max-width: 480px) {
   .container {
@@ -380,5 +394,10 @@ textarea.input {
 
   .btn {
     padding: 0.45rem 1.2rem;
+  }
+
+  .header-img {
+    height: 150px;
+    width: 280px;
   }
 }
